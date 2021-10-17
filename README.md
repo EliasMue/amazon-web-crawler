@@ -16,6 +16,7 @@ Dort findet man in Zeile 7 das Feld 'queries'.
 Es gibt zwei Wege nach Produkten zu suchen:
 1. Suchbegriff/e eingeben --> queries = ['Amazon Link einfügen'], Zeile 23-26 entkommentieren und 16-19 kommentieren
 2. Link/s eingeben --> queries = ['Suchbegriff'], Zeile 16-19 entkommentieren, Zeile 23-26 kommentieren
+
 Um alle Seiten crawlen zu lassen und nicht nur die Erste, müssen Zeile 64 bis 67 entkommentiert werden.
 Wenn man nur etwas testen möchte, ist es natürlich effizienter nur die erste Seite zu crawlen ;)
 Um den Crawler zu starten öffnet man in der Pycharm IDE ein Terminal (unten Links auf dem Bildschirm zu finden).
